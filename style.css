@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+.tooltip,
+
+.card,
+
+.container {
+  margin: 5vh 2.5vw;
+  padding: 15vh 0;
+ 
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container svg {
+  height: 5rem;
+}
+.container svg line {
+  stroke: #5f39dd;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-dasharray: 2px 20px;
+  animation: animateline 5s linear both infinite;
+}
+h3 {
+  font-size: 0.1rem;
+  color: #411fb2;
+}
+p {
+  font-size: 0.95rem;
+  font-weight: 300;
+}
+
+
+
+
+.container__build div svg {
+  width: 4rem;
+  height: auto;
+  fill: #5f39dd;
+}
+.container__deploy {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  position: relative;
+}
+.container__deploy:before {
+  content: 'deploy';
+}
+@media (max-width: 700px) {
+  .container__sources {
+    flex-direction: column;
+  }
+  .container__sources div {
+    margin: 1rem 0;
+  }
+}
+@-moz-keyframes animateline {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -5rem;
+  }
+}
+@-webkit-keyframes animateline {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -5rem;
+  }
+}
+@-o-keyframes animateline {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -5rem;
+  }
+}
+@keyframes animateline {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -5rem;
+  }
+}
