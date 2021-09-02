@@ -25,11 +25,12 @@
 }
 h3 {
   font-size: 0.1rem;
-  color: #411fb2;
+  color: #f9f9f9;
 }
 p {
   font-size: 0.95rem;
   font-weight: 300;
+    color: #f9f9f9;
 }
 
 
@@ -38,7 +39,7 @@ p {
 .container__build div svg {
   width: 4rem;
   height: auto;
-  fill: #5f39dd;
+  fill: #f9f9f9;
 }
 .container__deploy {
   background: #f9f9f9;

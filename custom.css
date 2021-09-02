@@ -1,0 +1,21 @@
+body {
+    background-color: #6815ea
+}
+@font-face {
+   font-family: myFirstFont;
+   src: url("/fonts/Oregon LDO Black.ttf");
+    color:white;
+}
+ 
+h2 {
+   font-family: myFirstFont;
+   color: white;
+}
+p {
+   font-family: myFirstFont;
+   color: white;
+}
+h1 {
+   font-family: myFirstFont;
+   color: white;
+}
