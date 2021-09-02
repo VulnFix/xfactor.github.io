@@ -6,7 +6,13 @@ body {
    src: url("/fonts/Oregon LDO Black.ttf");
     color:white;
 }
- 
+
+@font-face {
+   font-family: mySecondFont;
+   src: url("/fonts/Oregon LDO Light.ttf");
+    color:white;
+}
+
 h2 {
    font-family: myFirstFont;
    color: white;
@@ -17,5 +23,17 @@ p {
 }
 h1 {
    font-family: myFirstFont;
+   color: white;
+}
+h3 {
+   font-family: myFirstFont;
+   color: white;
+}
+h4 {
+   font-family: mySecondFont;
+   color: white;
+}
+h5 {
+   font-family: mySecondFont;
    color: white;
 }
