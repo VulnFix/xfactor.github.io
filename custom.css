@@ -37,3 +37,10 @@ h5 {
    font-family: mySecondFont;
    color: white;
 }
+
+legend { 
+
+                background-color:#6815ea;
+                color:white;;
+                font-family: mySecondFont;
+            }
